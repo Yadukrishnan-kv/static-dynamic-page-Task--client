@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import './ServicesPage.css'
-import { BsTruckFrontFill } from "react-icons/bs";
+
 
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
 function ServicesPage() {
 
-  const { id } = useParams();
+
     const [Service, setService] = useState([]);
     const token = localStorage.getItem('token');
   
