@@ -3,7 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import './ServicesPage.css'
 
 
-import { useParams } from 'react-router-dom';
+
 import axios from 'axios';
 
 function ServicesPage() {
