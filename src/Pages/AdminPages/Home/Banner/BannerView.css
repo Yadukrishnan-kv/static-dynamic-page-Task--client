@@ -1,0 +1,131 @@
+/* Container for the table */
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Simple table styles */
+.simple-banner-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header styles */
+.simple-banner-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table cell styles */
+.simple-banner-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Image styles */
+.simple-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Edit button styles */
+.edit-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Adjust width for 'content' and 'description' columns */
+.simple-banner-table td:nth-child(2),
+.simple-banner-table td:nth-child(3) {
+    width: 35%; /* Set a wider width for content and description */
+    word-wrap: break-word; /* Ensure text wraps within the cell */
+}
+
+/* Table row hover effect */
+.simple-banner-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Table border styles */
+.simple-banner-table th, .simple-banner-table td {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+/* First column border styling */
+.simple-banner-table td:first-child {
+    border-left: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .simple-banner-table th,
+    .simple-banner-table td {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .simple-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .edit-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+/* Responsive design for very small screens */
+@media (max-width: 480px) {
+    .simple-banner-table th,
+    .simple-banner-table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .simple-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .edit-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+

@@ -1,0 +1,240 @@
+.maindiv{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.leftsection{
+    width: 50%;
+    background-color: white;
+    height: 600px;
+}
+.rightsection{
+    width: 50%;
+    background-color: white;
+    height: 500px;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.content1 span
+{
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    color:#001B90;
+    margin-bottom: 8px;
+        
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 95%;
+    font-size: 16px;
+    line-height:  1.75;
+    font-weight: 300;
+    color: #4C4C5B;;
+    margin-bottom: 15px;
+}
+.content h1{
+    
+    color: #1a1a4c;
+    
+    font-weight: 600;
+   
+    font-size: 40px;
+   
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content2{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.content2left{
+    width: 60%;
+    background-color: white;
+    padding: 10px 20px;
+   
+   
+}
+.content2p{
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #000038;
+    padding-top: 10px;
+    padding-left: 80px;
+    
+    
+}
+.content2-button{
+    color:#ffffff;
+    background-color: #001B90;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 17px 28px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+.content2-button:hover {
+    background-color:#29ABE2;
+  }
+
+  .content2right{
+    background-color:white;
+    width: 60%;
+  }
+
+
+
+.about__review-wrap {
+    display: flex;
+    
+    margin-top: 10px;
+}
+
+.about__review-box {
+    margin-right: 10px;
+   margin-left: 50px;
+   margin-top: 20px;
+   display: flex;
+   gap: 30px;
+}
+
+.about__review-author img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0 5px;
+    
+}
+
+.review i {
+    color: #ffc107;
+}
+
+.review span {
+    color: #333;
+    font-size: 14px;
+}
+
+.experience__box {
+    display: flex;
+    gap: 10px;
+    color:#ffffff;
+    background-color:#29ABE2;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 5px 55px;
+    text-align: center;
+    margin-top: 30px;
+   
+
+}
+.separator-horizontal {
+    border: none;
+    border-left: 1px solid black;
+    height: 70px;
+ }
+ .hr {
+    border: none;
+    border-left: 3px solid gray;
+    height: 220px;
+ }
+.experience__box .title {
+    
+    color: #333;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.shape img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: fade-in-left 1s ease-in-out;
+}
+
+
+.about__img1{
+    width:550px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.about__img2{
+    width: 220px;
+    height: 250px;
+    border-radius: 15px;
+    transform: translateY(60px)   translateX(-220px);
+    z-index: 2;
+}
+.about__img3{
+    transform: translateY(400px)   translateX(-740px);
+    z-index: 2;
+    width: 170px;
+    height: 150px;
+    border-radius: 20px;
+}
+.about__img {
+    position: relative;
+    display: flex;
+   
+}
+/* 
+.about__img img {
+
+    height: auto;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+.about__img img:nth-child(1) {
+    transform: translateX(-20px) translateY(-20px);
+}
+
+.about__img img:nth-child(2) {
+    transform: translateX(20px);
+    z-index: 1;
+}
+
+.about__img img:nth-child(3) {
+    transform: translateY(20px);
+    z-index: 2;
+} */
+
+/* Animations */
+@keyframes fade-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

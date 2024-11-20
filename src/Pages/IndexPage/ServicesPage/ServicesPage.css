@@ -1,0 +1,107 @@
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 90%;
+    height: 450px;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-left: 20px;
+  }
+  
+  /* .card:hover {
+    transform: translateY(-10px);
+  } */
+  
+  /* .image-container {
+    position: relative;
+    overflow: hidden;
+  } */
+  
+  .main-image {
+    
+    width: 55%;
+    height: 20px;
+    /* object-fit: cover; */
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  /* .card:hover .main-image {
+    transform: scale(1.1);
+  } */
+  
+  .overlay-icon1 {
+    position: absolute; /* Ensure it's positioned within the parent */
+    bottom: 20px; /* Adjust placement as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px; /* Set your desired width */
+    height: 50px; /* Set your desired height */
+     /* Ensures the image fits within the specified width and height */
+    border: 4px solid #fff; /* Optional: border around the image */
+    background-color: #f00; /* Optional: background for visibility */
+    border-radius: 5px; /* Optional: rounded corners */
+    z-index: 10; /* Ensure it stays on top */
+  }
+  
+  
+  
+  .overlay1 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 50%;
+    height: 100%;
+    background:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .overlay span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card:hover .overlay1 {
+    opacity: 1;
+  }
+  
+  .card-content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .card-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card-content p {
+    font-size: 18px;
+    color: #666;
+  }
+  

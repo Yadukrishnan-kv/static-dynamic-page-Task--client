@@ -1,0 +1,118 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    background-color: #000038;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.navicons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Style for horizontal separator in navbar-top */
+.separator {
+    border: none;
+    border-left: 1px solid black;
+    height: 30px;
+    margin: 0 15px;
+}
+
+.navbar-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between logo/nav and right-side content */
+    width: 100%; /* Ensure the navbar spans full width */
+    background-color: white;
+    height: 70px;
+}
+
+.nav-seaction {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-seaction1 {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-seaction2 {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.nav {
+    margin-left: 80px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.nav p {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav p:hover {
+    color: #29ABE2;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto; /* This pushes the right section to the far right */
+}
+
+.contact {
+    color: #1a1a4c;
+    font-weight: bold;
+}
+
+.track-order {
+    background-color: #29ABE2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.track-order:hover {
+    background-color: #001B90;
+}
+
+/* Style for horizontal separator in navbar-main */
+.separator-horizontal {
+    border: none;
+    border-left: 1px solid black;
+    height: 100px;
+}

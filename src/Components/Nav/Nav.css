@@ -1,0 +1,273 @@
+.navbar1Nav {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar-top1Nav {
+    display: flex;
+    align-items: center;
+    background-color: #000038;
+    color: white;
+    padding: 15px 20px;
+    font-size: 15px;
+    
+  }
+  .abouthrNav{
+    width: 100%;
+  border: 0;
+  border-top: 1px solid gray;
+  margin: 10px 0;
+  }
+  .navicons1Nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  
+  /* Style for horizontal separator in navbar-top */
+  .separatorNav {
+    border: none;
+    border-left: 1px solid white;
+    height: 20px;
+    margin: 0 15px;
+  }
+  
+  
+  .navbar-main1Nav {
+    display: flex;
+ 
+    align-items: center;
+    height: 70px;
+    background-color: white;
+  }
+  
+  .nav-seaction1Nav {
+    display: flex;
+    margin-left: auto;
+    
+  }
+  
+  .nav-seaction11Nav {
+    display: flex;
+    gap: 10px;
+    color: white;
+  }
+  
+  .nav-seaction21Nav {
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+  }
+  
+  .logo1Nav {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    
+  }
+
+  .swiper-wrapper1Nav{
+    display: flex;
+    gap: 70px;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+  .navAboutNav{
+    margin-left: 120px;
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+   
+  }
+  
+  .navAboutNav p {
+   
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    
+  }
+  
+  .navAboutNav p:hover {
+    color: #29ABE2;
+  }
+  .nav-seaction21Nav a:hover {
+    color: #29ABE2;
+  }
+  
+  .navbar-right1Nav {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 150px;
+  }
+  
+  .contactNav {
+    color: #4C4C5B;
+    font-weight: 500;
+    font-size: 12px;
+   
+  }
+  
+  .track-order1Nav {
+    background-color:#29ABE2;
+    color: white;
+     border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+   
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .track-order1Nav:hover {
+    background-color: #001B90;
+   
+  }
+  
+  /* Style for horizontal separator in navbar-main */
+  .separator-horizontal11Nav {
+    border: none;
+    border-left: 1px solid black;
+    height: 80px;
+    margin-bottom: 10px;
+    
+  }
+  .separator-horizontal111Nav {
+    border: none;
+    border-left: 1px solid black;
+    height: 90px;
+    margin-left: 150px;
+    
+  }
+  /* General styling */
+/* General styling */
+.App {
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.toggle-btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style for the side menu */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Initially hidden off-screen */
+  width: 300px;
+  height: 100%;
+  background-color:white;
+  color: black;
+  transition: right 0.3s ease-in-out; /* Smooth transition for sliding in/out */
+  padding-top: 30px; /* Adds space for the menu items */
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+}
+
+.side-menu.open {
+  right: 0; /* Move to the right edge of the screen when open */
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  width: 50%; /* Adjust logo size */
+  margin-bottom: 20px;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #444;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* Address and contact info */
+.address {
+  margin-bottom: 20px;
+}
+
+.address h3, .address h4 {
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: 600;
+  
+}
+
+.address p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #4C4C5B;
+}
+
+/* Social media icons */
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media h4 {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+ 
+  padding: 10px;
+  color: #001B90;
+
+  text-decoration: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #0056b3;
+}
+
+/* Style for the menu items */
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu li {
+  padding: 15px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+}
+
+.side-menu li:hover {
+  background-color: #555;
+}
